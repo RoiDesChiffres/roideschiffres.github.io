@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edouard Roberts Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .article {
+            margin-bottom: 60px;
+        }
+
+        .article h2 {
+            margin-bottom: 10px;
+        }
+
+        .article .date {
+            font-size: 0.95em;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .pdf-viewer {
+            width: 80%;
+            height: 800px;
+            border: none;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
+</head>
+<body>
+    <h1>Edouard Roberts' Articles</h1>
+    
+    <div class="article">
+        <h2>1. Simplifying Computations in the Finite Field \( \mathbb{F}_p \)</h2>
+        <div class="date">June 2025</div>
+        <p><strong>Abstract:</strong>  
+        This article explores the identity \( (a + b)^p = a^p + b^p \) in the finite field \( \mathbb{F}_p \).  
+        We prove this using the binomial theorem, verify it for small primes, and use it to prove a restricted from of Fermat’s Little Theorem.
+        We also prove generalizations to more terms and discuss potential applications in cryptography and error correction.
+        </p>
+        <iframe class="pdf-viewer" src="SimplificationComputationFiniteFields.pdf"></iframe>
+    </div>
+</body>
+</html>
